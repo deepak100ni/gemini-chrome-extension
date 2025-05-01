@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloomfire</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- API Request Section -->
+    <div class="card">
+      <h2>API REQUEST</h2>
+      <form id="bloomfire-form">
+        <label for="input-text">Enter your query</label>
+        <input type="text" id="input-text" placeholder="Bloomfire" required>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+
+    <!-- Response Section -->
+    <div class="response-section">
+      <div class="response-header">
+        <h2>Response</h2>
+        <button id="copy-button" class="copy-button">Copy</button>
+      </div>
+      <pre id="response-text" class="hidden"></pre>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
