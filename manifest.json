@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Bloomfire",
+    "version": "1.0",
+    "description": "A Chrome extension to submit queries to an API and display the response",
+    "permissions": [
+      "clipboardWrite",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
