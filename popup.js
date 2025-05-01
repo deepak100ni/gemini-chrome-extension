@@ -5,8 +5,7 @@ document.getElementById('bloomfire-form').addEventListener('submit', async (e) =
     const responseText = document.getElementById('response-text');
   
     try {
-      // Replace with your API endpoint and key
-      const apiKey = 'AIzaSyDwccYlUKvlQKbW-xk2naCE0Y_UEe-4tVU'; // Replace with your actual API key
+      const apiKey = '<Replace with your API>';
       const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`, {
         method: 'POST',
         headers: {
